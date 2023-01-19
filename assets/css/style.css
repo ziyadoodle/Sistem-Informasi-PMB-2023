@@ -16,6 +16,10 @@ body {
     color: #444444;
 }
 
+.base-2 {
+    color: var(--base-2);
+}
+
 a {
     color: var(--base-2);
     text-decoration: none;
