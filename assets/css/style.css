@@ -392,7 +392,8 @@ h6 {
 #hero {
     width: 100%;
     height: 80vh;
-    background: #a73737;
+    /* background: #a73737; */
+    background: linear-gradient(to bottom, #f2994a, #f2c94c);
 }
 
 #hero .container {
@@ -411,6 +412,14 @@ h6 {
     color: rgba(255, 255, 255, 0.6);
     margin-bottom: 50px;
     font-size: 24px;
+}
+
+#hero .hero-img {
+    text-align: center;
+}
+
+#hero .hero-img img {
+    width: 60%;
 }
 
 #hero .btn-get-started {
@@ -496,7 +505,7 @@ h6 {
 
 @media (max-width: 575px) {
     #hero .hero-img img {
-        width: 80%;
+        width: 70%;
     }
 
     #hero .btn-get-started {
