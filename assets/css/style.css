@@ -20,6 +20,10 @@ body {
     background: var(--base-1);
 }
 
+.bg-base-2 {
+    background: var(--base-2);
+}
+
 .base-2 {
     color: var(--base-2);
 }
@@ -202,7 +206,7 @@ h6 {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover > a {
+.navbar li:hover>a {
     color: var(--base-2);
 }
 
@@ -258,11 +262,11 @@ h6 {
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover > a {
+.navbar .dropdown ul li:hover>a {
     color: var(--base-2);
 }
 
-.navbar .dropdown:hover > ul {
+.navbar .dropdown:hover>ul {
     opacity: 1;
     top: 100%;
     visibility: visible;
@@ -274,7 +278,7 @@ h6 {
     visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover > ul {
+.navbar .dropdown .dropdown:hover>ul {
     opacity: 1;
     top: 0;
     left: 100%;
@@ -286,7 +290,7 @@ h6 {
         left: -90%;
     }
 
-    .navbar .dropdown .dropdown:hover > ul {
+    .navbar .dropdown .dropdown:hover>ul {
         left: -100%;
     }
 }
@@ -358,7 +362,7 @@ h6 {
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover > a {
+.navbar-mobile li:hover>a {
     color: var(--base-2);
 }
 
@@ -394,11 +398,11 @@ h6 {
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover > a {
+.navbar-mobile .dropdown ul li:hover>a {
     color: var(--base-2);
 }
 
-.navbar-mobile .dropdown > .dropdown-active {
+.navbar-mobile .dropdown>.dropdown-active {
     display: block;
 }
 
@@ -644,7 +648,7 @@ section {
     position: relative;
 }
 
-.pengumuman .content ul li + li {
+.pengumuman .content ul li+li {
     margin-top: 10px;
 }
 
@@ -727,7 +731,7 @@ section {
     list-style: none;
 }
 
-.why-us .accordion-list li + li {
+.why-us .accordion-list li+li {
     margin-top: 15px;
 }
 
@@ -789,6 +793,7 @@ section {
 }
 
 @media (max-width: 1024px) {
+
     .why-us .content,
     .why-us .accordion-list {
         padding-left: 0;
@@ -1086,10 +1091,7 @@ section {
     position: relative;
 }
 
-.portfolio-details
-    .portfolio-details-slider
-    .swiper-pagination
-    .swiper-pagination-bullet {
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
     width: 12px;
     height: 12px;
     background-color: #fff;
@@ -1097,10 +1099,7 @@ section {
     border: 1px solid var(--base-2);
 }
 
-.portfolio-details
-    .portfolio-details-slider
-    .swiper-pagination
-    .swiper-pagination-bullet-active {
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
     background-color: var(--base-2);
 }
 
@@ -1123,7 +1122,7 @@ section {
     font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li + li {
+.portfolio-details .portfolio-info ul li+li {
     margin-top: 10px;
 }
 
@@ -1234,7 +1233,7 @@ section {
     color: #fff;
 }
 
-.team .member .social a + a {
+.team .member .social a+a {
     margin-left: 8px;
 }
 
@@ -1376,7 +1375,7 @@ section {
     list-style: none;
 }
 
-.faq .faq-list li + li {
+.faq .faq-list li+li {
     margin-top: 15px;
 }
 
@@ -1553,7 +1552,7 @@ section {
     font-weight: 600;
 }
 
-.contact .php-email-form .error-message br + br {
+.contact .php-email-form .error-message br+br {
     margin-top: 25px;
 }
 
@@ -1679,11 +1678,11 @@ section {
     font-size: 14px;
 }
 
-.breadcrumbs ol li + li {
+.breadcrumbs ol li+li {
     padding-left: 10px;
 }
 
-.breadcrumbs ol li + li::before {
+.breadcrumbs ol li+li::before {
     display: inline-block;
     padding-right: 10px;
     color: #4668a2;
@@ -1894,6 +1893,7 @@ Start Beasiswa Biaya Pendidikan
 .inner-page4 h3 {
     color: var(--base-2);
 }
+
 /*--------------------------------- 
 End Beasiswa Biaya Pendidikan 
 ---------------------------------*/
