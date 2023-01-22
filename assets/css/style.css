@@ -5,8 +5,8 @@
 
 /* variabels */
 :root {
-    --base-1: #1F1C18;
-    --base-2: #BE5869;
+    --base-1: #1f1c18;
+    --base-2: #be5869;
     --base-2-hover: #be3e54;
 }
 
@@ -137,7 +137,6 @@ h6 {
 #header.header-scrolled,
 #header.header-inner-pages {
     background: rgba(71, 34, 34, 0.9) !important;
-
 }
 
 #header .logo {
@@ -203,7 +202,7 @@ h6 {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover>a {
+.navbar li:hover > a {
     color: var(--base-2);
 }
 
@@ -216,7 +215,7 @@ h6 {
     font-size: 14px;
     border: 2px solid #fff;
     font-weight: 600;
-    box-shadow: .3rem .3rem #fff;
+    box-shadow: 0.3rem 0.3rem #fff;
 }
 
 .navbar .getstarted:hover,
@@ -259,11 +258,11 @@ h6 {
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
+.navbar .dropdown ul li:hover > a {
     color: var(--base-2);
 }
 
-.navbar .dropdown:hover>ul {
+.navbar .dropdown:hover > ul {
     opacity: 1;
     top: 100%;
     visibility: visible;
@@ -275,7 +274,7 @@ h6 {
     visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover>ul {
+.navbar .dropdown .dropdown:hover > ul {
     opacity: 1;
     top: 0;
     left: 100%;
@@ -287,7 +286,7 @@ h6 {
         left: -90%;
     }
 
-    .navbar .dropdown .dropdown:hover>ul {
+    .navbar .dropdown .dropdown:hover > ul {
         left: -100%;
     }
 }
@@ -359,7 +358,7 @@ h6 {
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover>a {
+.navbar-mobile li:hover > a {
     color: var(--base-2);
 }
 
@@ -395,11 +394,11 @@ h6 {
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a {
+.navbar-mobile .dropdown ul li:hover > a {
     color: var(--base-2);
 }
 
-.navbar-mobile .dropdown>.dropdown-active {
+.navbar-mobile .dropdown > .dropdown-active {
     display: block;
 }
 
@@ -411,13 +410,9 @@ h6 {
     height: 70vh;
     background: #1d2b64;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top,
-            var(--base-2),
-            var(--base-1));
+    background: -webkit-linear-gradient(to top, var(--base-2), var(--base-1));
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top,
-            var(--base-2),
-            var(--base-1));
+    background: linear-gradient(to top, var(--base-2), var(--base-1));
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -459,7 +454,7 @@ h6 {
     margin: 10px 0 0 0;
     color: #fff;
     background: var(--base-2);
-    box-shadow: .5rem .5rem #000;
+    box-shadow: 0.5rem 0.5rem #000;
     border: 3px solid #000;
 }
 
@@ -649,7 +644,7 @@ section {
     position: relative;
 }
 
-.pengumuman .content ul li+li {
+.pengumuman .content ul li + li {
     margin-top: 10px;
 }
 
@@ -732,7 +727,7 @@ section {
     list-style: none;
 }
 
-.why-us .accordion-list li+li {
+.why-us .accordion-list li + li {
     margin-top: 15px;
 }
 
@@ -794,7 +789,6 @@ section {
 }
 
 @media (max-width: 1024px) {
-
     .why-us .content,
     .why-us .accordion-list {
         padding-left: 0;
@@ -1092,7 +1086,10 @@ section {
     position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.portfolio-details
+    .portfolio-details-slider
+    .swiper-pagination
+    .swiper-pagination-bullet {
     width: 12px;
     height: 12px;
     background-color: #fff;
@@ -1100,7 +1097,10 @@ section {
     border: 1px solid var(--base-2);
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.portfolio-details
+    .portfolio-details-slider
+    .swiper-pagination
+    .swiper-pagination-bullet-active {
     background-color: var(--base-2);
 }
 
@@ -1123,7 +1123,7 @@ section {
     font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.portfolio-details .portfolio-info ul li + li {
     margin-top: 10px;
 }
 
@@ -1234,7 +1234,7 @@ section {
     color: #fff;
 }
 
-.team .member .social a+a {
+.team .member .social a + a {
     margin-left: 8px;
 }
 
@@ -1376,7 +1376,7 @@ section {
     list-style: none;
 }
 
-.faq .faq-list li+li {
+.faq .faq-list li + li {
     margin-top: 15px;
 }
 
@@ -1553,7 +1553,7 @@ section {
     font-weight: 600;
 }
 
-.contact .php-email-form .error-message br+br {
+.contact .php-email-form .error-message br + br {
     margin-top: 25px;
 }
 
@@ -1679,11 +1679,11 @@ section {
     font-size: 14px;
 }
 
-.breadcrumbs ol li+li {
+.breadcrumbs ol li + li {
     padding-left: 10px;
 }
 
-.breadcrumbs ol li+li::before {
+.breadcrumbs ol li + li::before {
     display: inline-block;
     padding-right: 10px;
     color: #4668a2;
@@ -1884,3 +1884,16 @@ section {
         padding-top: 4px;
     }
 }
+
+/*--------------------------------- 
+Start Beasiswa Biaya Pendidikan 
+---------------------------------*/
+.inner-page1 h3,
+.inner-page2 h3,
+.inner-page3 h3,
+.inner-page4 h3 {
+    color: var(--base-2);
+}
+/*--------------------------------- 
+End Beasiswa Biaya Pendidikan 
+---------------------------------*/

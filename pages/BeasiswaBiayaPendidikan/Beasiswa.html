@@ -1,258 +1,486 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PMB ANJAY University - Pascasarjana</title>
 
-    <title>PMB ANJAY University - Pascasarjana</title>
+        <link href="./../../assets/image/favicon.png" rel="icon" />
 
-    <link href="./../../assets/image/favicon.png" rel="icon" />
+        <link
+            rel="stylesheet"
+            href="./../../assets/bootstrap/css/bootstrap.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="./../../assets/bootstrap-icons/bootstrap-icons.css"
+        />
+        <link
+            rel="stylesheet"
+            href="./../../assets/boxicons/css/boxicons.min.css"
+        />
 
-    <link rel="stylesheet" href="./../../assets/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./../../assets/bootstrap-icons/bootstrap-icons.css" />
-    <link rel="stylesheet" href="./../../assets/boxicons/css/boxicons.min.css" />
+        <link href="./../../assets/css/style.css" rel="stylesheet" />
+    </head>
 
-    <link href="./../../assets/css/style.css" rel="stylesheet" />
-</head>
+    <body>
+        <!-- ======= Header ======= -->
+        <header id="header" class="sticky-top bg-base-1">
+            <div class="container d-flex align-items-center">
+                <h1 class="logo me-auto">
+                    <a href="index.html">anjay university</a>
+                </h1>
 
-<body>
-    <!-- ======= Header ======= -->
-    <header id="header" class="sticky-top bg-base-1">
-        <div class="container d-flex align-items-center">
-            <h1 class="logo me-auto">
-                <a href="index.html">anjay university</a>
-            </h1>
-
-            <nav id="navbar" class="navbar">
-                <ul>
-                    <li>
-                        <a class="nav-link scrollto" href="./../../index.html">Beranda</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#">
-                            <span>Program Studi</span>
-                            <i class="bi bi-chevron-down"></i>
-                        </a>
-                        <ul>
-                            <li class="dropdown">
-                                <a href="#"><span>Fakultas Sains Teknologi</span>
-                                    <i class="bi bi-chevron-right"></i></a>
-                                <ul>
-                                    <li>
-                                        <a href="#">S1 Teknik Elektro</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">S1 Teknik Informatika</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">S2 Teknik Elektro</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">S2 Teknik Informatika</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">S3 Teknik Informatika</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#">
-                            <span>Sarjana</span>
-                            <i class="bi bi-chevron-down"></i>
-                        </a>
-                        <ul>
-                            <li>
-                                <a href="./pages/Sarjana/JalurMandiri.html">Jalur Mandiri</a>
-                            </li>
-                            <li>
-                                <a href="./pages/Sarjana/DaftarUlang.html">Daftar Ulang</a>
-                            </li>
-                            <li>
-                                <a href="./pages/Sarjana/LuarNegeri.html">Luar Negeri (Internasional)</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#">
-                            <span>Pascasarjana</span>
-                            <i class="bi bi-chevron-down"></i>
-                        </a>
-                        <ul>
-                            <li>
-                                <a href="#">Beasiswa Lanjutan</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="active">
-                            <span>Beasiswa Biaya Pendidikan</span>
-                            <i class="bi bi-chevron-down"></i>
-                        </a>
-                        <ul>
-                            <li>
-                                <a href="#">Baznas</a>
-                            </li>
-                            <li>
-                                <a href="#">Lazismu</a>
-                            </li>
-                            <li>
-                                <a href="#">JFLS</a>
-                            </li>
-                            <li>
-                                <a href="#">KIP-K</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a class="getstarted scrollto" href="#about">Log In</a>
-                    </li>
-                </ul>
-                <i class="bi bi-list mobile-nav-toggle"></i>
-            </nav>
-        </div>
-    </header>
-    <!-- End Header -->
-
-    <!-- ======= Breadcrumbs ======= -->
-    <section id="breadcrumbs" class="breadcrumbs">
-        <div class="container">
-
-            <ol>
-                <li><a href="./../../index.html">Beranda</a></li>
-                <li>Inner Page</li>
-            </ol>
-            <h2>Inner Page</h2>
-
-        </div>
-    </section>
-    <!-- End Breadcrumbs -->
-
-    <section class="inner-page section-bg">
-        <div class="container">
-            <p>
-                Example inner page template
-            </p>
-        </div>
-    </section>
-
-    <section class="inner-page">
-        <div class="container">
-            <p>
-                Example inner page template 2
-            </p>
-        </div>
-    </section>
-
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
-        <div class="footer-top section-bg">
+                <nav id="navbar" class="navbar">
+                    <ul>
+                        <li>
+                            <a
+                                class="nav-link scrollto"
+                                href="./../../index.html"
+                                >Beranda</a
+                            >
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">
+                                <span>Program Studi</span>
+                                <i class="bi bi-chevron-down"></i>
+                            </a>
+                            <ul>
+                                <li class="dropdown">
+                                    <a href="#"
+                                        ><span>Fakultas Sains Teknologi</span>
+                                        <i class="bi bi-chevron-right"></i
+                                    ></a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">S1 Teknik Elektro</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                >S1 Teknik Informatika</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a href="#">S2 Teknik Elektro</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                >S2 Teknik Informatika</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a href="#"
+                                                >S3 Teknik Informatika</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">
+                                <span>Sarjana</span>
+                                <i class="bi bi-chevron-down"></i>
+                            </a>
+                            <ul>
+                                <li>
+                                    <a href="./pages/Sarjana/JalurMandiri.html"
+                                        >Jalur Mandiri</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="./pages/Sarjana/DaftarUlang.html"
+                                        >Daftar Ulang</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="./pages/Sarjana/LuarNegeri.html"
+                                        >Luar Negeri (Internasional)</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">
+                                <span>Pascasarjana</span>
+                                <i class="bi bi-chevron-down"></i>
+                            </a>
+                            <ul>
+                                <li>
+                                    <a href="#">Beasiswa Lanjutan</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="active">
+                                <span>Beasiswa Biaya Pendidikan</span>
+                                <i class="bi bi-chevron-down"></i>
+                            </a>
+                            <ul>
+                                <li>
+                                    <a href="#">Baznas</a>
+                                </li>
+                                <li>
+                                    <a href="#">Lazismu</a>
+                                </li>
+                                <li>
+                                    <a href="#">JFLS</a>
+                                </li>
+                                <li>
+                                    <a href="#">KIP-K</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="getstarted scrollto" href="#about"
+                                >Log In</a
+                            >
+                        </li>
+                    </ul>
+                    <i class="bi bi-list mobile-nav-toggle"></i>
+                </nav>
+            </div>
+        </header>
+        <!-- End Header -->
+        <!-- ======= Breadcrumbs ======= -->
+        <section id="breadcrumbs" class="breadcrumbs">
+            <div class="container">
+                <ol>
+                    <li><a href="./../../index.html">Beranda</a></li>
+                    <li>Beasiswa Biaya Pendidikan</li>
+                </ol>
+                <h2 class="text-center mt-5">Informasi Beasiswa</h2>
+            </div>
+        </section>
+        <!-- End Breadcrumbs -->
+        <!-- Beasiswa Baznas Section Start -->
+        <section class="inner-page1 section-bg">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 footer-contact">
-                        <h3>Anjay University</h3>
+                    <div class="col">
+                        <h3>Beasiswa Baznas</h3>
                         <p>
-                            Jl. Diponegoro No.22, <br />
-                            Citarum, Bandung, Jawa Barat, 40115<br />
-                            Indonesia <br /><br />
-                            <strong>Telp :</strong> 022-200219<br />
-                            <strong>Email :</strong>
-                            pmb@anjayuniversity.ac.id<br />
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Repellendus vel ipsa corporis sint vitae non
+                            quis iusto! Deleniti a quam incidunt quisquam amet
+                            dolores tempore ipsa! A at neque iste!
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quod, qui ipsum magnam ex, explicabo rem
+                            aliquam vitae ducimus atque veritatis, voluptatum
+                            ipsa omnis soluta ea! Accusantium enim id quasi
+                            consectetur!
                         </p>
                     </div>
-
-                    <div class="col-lg-3 col-md-6 footer-links">
-                        <h4>Useful Links</h4>
-                        <ul>
-                            <li>
-                                <i class="bx bx-chevron-right"></i>
-                                <a href="#">Home</a>
-                            </li>
-                            <li>
-                                <i class="bx bx-chevron-right"></i>
-                                <a href="#">About us</a>
-                            </li>
-                            <li>
-                                <i class="bx bx-chevron-right"></i>
-                                <a href="#">Services</a>
-                            </li>
-                            <li>
-                                <i class="bx bx-chevron-right"></i>
-                                <a href="#">Terms of service</a>
-                            </li>
-                            <li>
-                                <i class="bx bx-chevron-right"></i>
-                                <a href="#">Privacy policy</a>
-                            </li>
-                        </ul>
+                    <div class="col">
+                        <img
+                            src="../../assets/image/beasiswa-1jpeg.jpeg"
+                            class="beasiswa-1 img-fluid rounded-2"
+                            alt="beasiswa-1"
+                        />
                     </div>
-
-                    <div class="col-lg-3 col-md-6 footer-links">
-                        <h4>Our Services</h4>
-                        <ul>
-                            <li>
-                                <i class="bx bx-chevron-right"></i>
-                                <a href="#">Web Design</a>
-                            </li>
-                            <li>
-                                <i class="bx bx-chevron-right"></i>
-                                <a href="#">Web Development</a>
-                            </li>
-                            <li>
-                                <i class="bx bx-chevron-right"></i>
-                                <a href="#">Product Management</a>
-                            </li>
-                            <li>
-                                <i class="bx bx-chevron-right"></i>
-                                <a href="#">Marketing</a>
-                            </li>
-                            <li>
-                                <i class="bx bx-chevron-right"></i>
-                                <a href="#">Graphic Design</a>
-                            </li>
-                        </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Beasiswa Baznas Section End -->
+        <!-- Beasiswa Lazismu Section Start -->
+        <section class="inner-page2">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <img
+                            src="../../assets/image/beasiswa-2.jpg"
+                            class="beasiswa-1 img-fluid rounded-2"
+                            alt="beasiswa-1"
+                        />
                     </div>
-
-                    <div class="col-lg-3 col-md-6 footer-links">
-                        <h4>Our Social Networks</h4>
-                        <p class="text-black">
-                            Cras fermentum odio eu feugiat lide par naso
-                            tierra videa magna derita valies
+                    <div class="col">
+                        <h3>Beasiswa Lazismu</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Repellendus vel ipsa corporis sint vitae non
+                            quis iusto! Deleniti a quam incidunt quisquam amet
+                            dolores tempore ipsa! A at neque iste!
                         </p>
-                        <div class="social-links mt-3">
-                            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                            <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quod, qui ipsum magnam ex, explicabo rem
+                            aliquam vitae ducimus atque veritatis, voluptatum
+                            ipsa omnis soluta ea! Accusantium enim id quasi
+                            consectetur!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Beasiswa Lazismu Section End -->
+        <!-- Beasiswa JFLS Start -->
+        <section class="inner-page3 section-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h3>Beasiswa JFLS</h3>
+                        <h3>Jabar Future Leadership</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Repellendus vel ipsa corporis sint vitae non
+                            quis iusto! Deleniti a quam incidunt quisquam amet
+                            dolores tempore ipsa! A at neque iste!
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quod, qui ipsum magnam ex, explicabo rem
+                            aliquam vitae ducimus atque veritatis, voluptatum
+                            ipsa omnis soluta ea! Accusantium enim id quasi
+                            consectetur!
+                        </p>
+                    </div>
+                    <div class="col">
+                        <img
+                            src="../../assets/image/beasiswa-3.jpg"
+                            class="beasiswa-1 img-fluid rounded-2"
+                            alt="beasiswa-1"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Beasiswa JFLS End -->
+        <!-- Beasiswa KIP-K Start -->
+        <section class="inner-page4">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <img
+                            src="../../assets/image/beasiswa-4.jpg"
+                            class="beasiswa-1 img-fluid rounded-2"
+                            alt="beasiswa-1"
+                        />
+                    </div>
+                    <div class="col">
+                        <h3>Beasiswa KIP-K</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Repellendus vel ipsa corporis sint vitae non
+                            quis iusto! Deleniti a quam incidunt quisquam amet
+                            dolores tempore ipsa! A at neque iste!
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quod, qui ipsum magnam ex, explicabo rem
+                            aliquam vitae ducimus atque veritatis, voluptatum
+                            ipsa omnis soluta ea! Accusantium enim id quasi
+                            consectetur!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr />
+        <!-- Beasiswa KIP-K End -->
+        <!-- Start Card Beasiswa -->
+        <section id="cards">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center mb-5">Daftar Sekarang !</h2>
+                    <div class="card" style="width: 15rem">
+                        <img
+                            src="../../assets/image/card-baznas.png"
+                            class="card-img-top"
+                            alt="..."
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card
+                                title and make up the bulk of the card's
+                                content.
+                            </p>
+                            <a href="#" class="btn btn-primary"
+                                >Daftar Sekarang</a
+                            >
+                        </div>
+                    </div>
+                    <div class="card" style="width: 15rem">
+                        <img
+                            src="../../assets/image/card-lazismu.png"
+                            class="card-img-top"
+                            alt="..."
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card
+                                title and make up the bulk of the card's
+                                content.
+                            </p>
+                            <a href="#" class="btn btn-primary"
+                                >Daftar Sekarang</a
+                            >
+                        </div>
+                    </div>
+                    <div class="card" style="width: 15rem">
+                        <img
+                            src="../../assets/image/card-jfls.jpg"
+                            class="card-img-top"
+                            alt="..."
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card
+                                title and make up the bulk of the card's
+                                content.
+                            </p>
+                            <a href="#" class="btn btn-primary"
+                                >Daftar Sekarang</a
+                            >
+                        </div>
+                    </div>
+                    <div class="card" style="width: 15rem">
+                        <img
+                            src="../../assets/image/card-kip.png"
+                            class="card-img-top"
+                            alt="..."
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card
+                                title and make up the bulk of the card's
+                                content.
+                            </p>
+                            <a href="#" class="btn btn-primary"
+                                >Daftar Sekarang</a
+                            >
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+        <!-- End Card Beasiswa -->
+        <!-- ======= Footer ======= -->
+        <footer id="footer">
+            <div class="footer-top section-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 footer-contact">
+                            <h3>Anjay University</h3>
+                            <p>
+                                Jl. Diponegoro No.22, <br />
+                                Citarum, Bandung, Jawa Barat, 40115<br />
+                                Indonesia <br /><br />
+                                <strong>Telp :</strong> 022-200219<br />
+                                <strong>Email :</strong>
+                                pmb@anjayuniversity.ac.id<br />
+                            </p>
+                        </div>
 
-        <div class="container footer-bottom clearfix">
-            <div class="copyright">
-                &copy; Copyright
-                <strong><span>Kelompok 2</span></strong>. All Rights Reserved
+                        <div class="col-lg-3 col-md-6 footer-links">
+                            <h4>Useful Links</h4>
+                            <ul>
+                                <li>
+                                    <i class="bx bx-chevron-right"></i>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-chevron-right"></i>
+                                    <a href="#">About us</a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-chevron-right"></i>
+                                    <a href="#">Services</a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-chevron-right"></i>
+                                    <a href="#">Terms of service</a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-chevron-right"></i>
+                                    <a href="#">Privacy policy</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 footer-links">
+                            <h4>Our Services</h4>
+                            <ul>
+                                <li>
+                                    <i class="bx bx-chevron-right"></i>
+                                    <a href="#">Web Design</a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-chevron-right"></i>
+                                    <a href="#">Web Development</a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-chevron-right"></i>
+                                    <a href="#">Product Management</a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-chevron-right"></i>
+                                    <a href="#">Marketing</a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-chevron-right"></i>
+                                    <a href="#">Graphic Design</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 footer-links">
+                            <h4>Our Social Networks</h4>
+                            <p class="text-black">
+                                Cras fermentum odio eu feugiat lide par naso
+                                tierra videa magna derita valies
+                            </p>
+                            <div class="social-links mt-3">
+                                <a href="#" class="twitter"
+                                    ><i class="bx bxl-twitter"></i
+                                ></a>
+                                <a href="#" class="facebook"
+                                    ><i class="bx bxl-facebook"></i
+                                ></a>
+                                <a href="#" class="instagram"
+                                    ><i class="bx bxl-instagram"></i
+                                ></a>
+                                <a href="#" class="google-plus"
+                                    ><i class="bx bxl-skype"></i
+                                ></a>
+                                <a href="#" class="linkedin"
+                                    ><i class="bx bxl-linkedin"></i
+                                ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="credits">
-                Designed by
-                <a href="#!">Kelompok 2</a>
+
+            <div class="container footer-bottom clearfix">
+                <div class="copyright">
+                    &copy; Copyright
+                    <strong><span>Kelompok 2</span></strong
+                    >. All Rights Reserved
+                </div>
+                <div class="credits">
+                    Designed by
+                    <a href="#!">Kelompok 2</a>
+                </div>
             </div>
-        </div>
-    </footer>
-    <!-- End Footer -->
+        </footer>
+        <!-- End Footer -->
 
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-            class="bi bi-arrow-up-short"></i></a>
+        <a
+            href="#"
+            class="back-to-top d-flex align-items-center justify-content-center"
+            ><i class="bi bi-arrow-up-short"></i
+        ></a>
 
-    <script src="./../../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="./../../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <script src="./../../assets/js/script.js"></script>
-</body>
-
+        <script src="./../../assets/js/script.js"></script>
+    </body>
 </html>
