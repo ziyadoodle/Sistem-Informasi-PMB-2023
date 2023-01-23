@@ -880,11 +880,13 @@ Start Beasiswa Biaya Pendidikan
     color: var(--base-2);
 }
 
-.beasiswa-title h2 {
+.beasiswa-title h2,
+.sps-title h2 {
     font-size: 3rem;
 }
 
-.beasiswa-title h2:after {
+.beasiswa-title h2:after,
+.sps-title h2:after {
     content: '';
     position: absolute;
     display: block;
